@@ -48,16 +48,18 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jCboNivel" max="32767" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="jMftCpf" alignment="0" max="32767" attributes="0"/>
-                          <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jLblNivel" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLblCpf" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jCboNivel" max="32767" attributes="0"/>
+                                  <Component id="jMftCpf" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -93,7 +95,7 @@
                               <Component id="jBtnPesquisar" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="9" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jPwfSenha" min="-2" pref="200" max="-2" attributes="0"/>
@@ -146,19 +148,13 @@
                   <Component id="jChbAtivo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                      <Component id="jBtnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jBtnPesquisar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jBtnExcluir" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jBtnConfirmar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jBtnIncluir" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jBtnAlterar" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jBtnConfirmar" max="32767" attributes="0"/>
+                  <Component id="jBtnAlterar" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jBtnExcluir" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jBtnIncluir" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jBtnCancelar" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jBtnPesquisar" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="71" max="32767" attributes="0"/>
           </Group>
